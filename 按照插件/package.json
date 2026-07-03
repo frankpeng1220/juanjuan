@@ -1,0 +1,11 @@
+{
+  "name": "github-learning-roadmap",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/progress.test.mjs",
+    "check": "node --check app.js && node --check content.js && node --check progress.js",
+    "serve": "python3 -m http.server 4311"
+  }
+}
